@@ -8,43 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		0872BA260024EE3C0DF750DB /* libPods-BitStreamCodableDevFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC09738B5D2317F00EE0C32 /* libPods-BitStreamCodableDevFrameworkTests.a */; };
-		349EC6A726A2BF58003B6588 /* Array+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E4CF7264C73CF00733445 /* Array+BitStreamDecodable.swift */; };
-		349EC6A926A2C9F7003B6588 /* Dictionary+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6A826A2C9F7003B6588 /* Dictionary+BitStreamEncodable.swift */; };
-		349EC6AB26A2CA6A003B6588 /* Dictionary+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6AA26A2CA6A003B6588 /* Dictionary+BitStreamDecodable.swift */; };
-		349EC6AD26A2CCEF003B6588 /* Optional+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6AC26A2CCEF003B6588 /* Optional+BitStreamEncodable.swift */; };
-		349EC6AF26A2CDA4003B6588 /* Optional+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6AE26A2CDA4003B6588 /* Optional+BitStreamDecodable.swift */; };
-		349EC6B126A2CE71003B6588 /* String+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6B026A2CE71003B6588 /* String+BitStreamEncodable.swift */; };
-		349EC6B326A2CF53003B6588 /* String+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6B226A2CF53003B6588 /* String+BitStreamDecodable.swift */; };
-		349EC6B826A2E6C2003B6588 /* FloatingPoint+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6B726A2E6C2003B6588 /* FloatingPoint+BitStreamEncodable.swift */; };
+		3400B08E26A35DF90052339C /* Optional+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B07926A35DF90052339C /* Optional+BitStreamDecodable.swift */; };
+		3400B08F26A35DF90052339C /* FloatingPoint+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B07A26A35DF90052339C /* FloatingPoint+BitStreamDecodable.swift */; };
+		3400B09026A35DF90052339C /* Integer+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B07B26A35DF90052339C /* Integer+BitStreamDecodable.swift */; };
+		3400B09126A35DF90052339C /* Dictionary+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B07C26A35DF90052339C /* Dictionary+BitStreamDecodable.swift */; };
+		3400B09226A35DF90052339C /* Data+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B07D26A35DF90052339C /* Data+BitStreamDecodable.swift */; };
+		3400B09326A35DF90052339C /* Date+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B07E26A35DF90052339C /* Date+BitStreamDecodable.swift */; };
+		3400B09426A35DF90052339C /* Array+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B07F26A35DF90052339C /* Array+BitStreamDecodable.swift */; };
+		3400B09526A35DF90052339C /* String+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08026A35DF90052339C /* String+BitStreamDecodable.swift */; };
+		3400B09626A35DF90052339C /* Int8+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08126A35DF90052339C /* Int8+BitStreamDecodable.swift */; };
+		3400B09726A35DF90052339C /* Bool+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08226A35DF90052339C /* Bool+BitStreamDecodable.swift */; };
+		3400B09826A35DF90052339C /* String+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08426A35DF90052339C /* String+BitStreamEncodable.swift */; };
+		3400B09926A35DF90052339C /* Date+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08526A35DF90052339C /* Date+BitStreamEncodable.swift */; };
+		3400B09A26A35DF90052339C /* Array+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08626A35DF90052339C /* Array+BitStreamEncodable.swift */; };
+		3400B09B26A35DF90052339C /* Data+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08726A35DF90052339C /* Data+BitStreamEncodable.swift */; };
+		3400B09C26A35DF90052339C /* Bool+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08826A35DF90052339C /* Bool+BitStreamEncodable.swift */; };
+		3400B09D26A35DF90052339C /* Int8+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08926A35DF90052339C /* Int8+BitStreamEncodable.swift */; };
+		3400B09E26A35DF90052339C /* FloatingPoint+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08A26A35DF90052339C /* FloatingPoint+BitStreamEncodable.swift */; };
+		3400B09F26A35DF90052339C /* Optional+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08B26A35DF90052339C /* Optional+BitStreamEncodable.swift */; };
+		3400B0A026A35DF90052339C /* Dictionary+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08C26A35DF90052339C /* Dictionary+BitStreamEncodable.swift */; };
+		3400B0A126A35DF90052339C /* Integer+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B08D26A35DF90052339C /* Integer+BitStreamEncodable.swift */; };
+		3400B0A826A35E580052339C /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B0A626A35E580052339C /* TestCase.swift */; };
+		3400B0A926A35E580052339C /* OptionalEncodingDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400B0A726A35E580052339C /* OptionalEncodingDecodingTests.swift */; };
 		349EC6BA26A2E7E0003B6588 /* FloatPoint+Octets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6B926A2E7E0003B6588 /* FloatPoint+Octets.swift */; };
-		349EC6BC26A2ED86003B6588 /* FloatingPoint+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6BB26A2ED86003B6588 /* FloatingPoint+BitStreamDecodable.swift */; };
-		349EC6BE26A2F0F3003B6588 /* Bool+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6BD26A2F0F3003B6588 /* Bool+BitStreamDecodable.swift */; };
-		349EC6C026A2F0FD003B6588 /* Bool+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6BF26A2F0FD003B6588 /* Bool+BitStreamEncodable.swift */; };
-		349EC6C226A2F196003B6588 /* Date+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C126A2F196003B6588 /* Date+BitStreamEncodable.swift */; };
-		349EC6C426A2F241003B6588 /* Date+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C326A2F241003B6588 /* Date+BitStreamDecodable.swift */; };
-		349EC6C626A2F390003B6588 /* OptionalEncodingDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C526A2F390003B6588 /* OptionalEncodingDecodingTests.swift */; };
-		349EC6C826A2F473003B6588 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C726A2F473003B6588 /* TestCase.swift */; };
 		34B0553C2649DA86009DE5CB /* BitStreamCodableDevFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B055322649DA86009DE5CB /* BitStreamCodableDevFramework.framework */; };
 		34B055432649DA86009DE5CB /* BitStreamCodableDevFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B055352649DA86009DE5CB /* BitStreamCodableDevFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34EB1F9A26A212F00067D5AC /* Data+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E4D04264DD52000733445 /* Data+BitStreamEncodable.swift */; };
 		34EB1F9E26A215FA0067D5AC /* Data+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B055742649DCA0009DE5CB /* Data+Decode.swift */; };
 		34EB1F9F26A215FA0067D5AC /* BytesArray+decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B05594264B2CA9009DE5CB /* BytesArray+decode.swift */; };
 		34EB1FA026A215FA0067D5AC /* BinaryInteger+binaryDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B05592264B2515009DE5CB /* BinaryInteger+binaryDescription.swift */; };
 		34EB1FA126A215FA0067D5AC /* BitStreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B055762649DCA0009DE5CB /* BitStreamData.swift */; };
-		34EB1FA326A217CB0067D5AC /* Integer+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E4CFC264DCBBC00733445 /* Integer+BitStreamEncodable.swift */; };
 		34EB1FA826A217D30067D5AC /* BitStreamDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E4D00264DCE3400733445 /* BitStreamDecoder.swift */; };
 		34EB1FA926A217D30067D5AC /* BitStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0557D2649DCA0009DE5CB /* BitStream.swift */; };
 		34EB1FAA26A217D30067D5AC /* BitStreamCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0557B2649DCA0009DE5CB /* BitStreamCodable.swift */; };
 		34EB1FAB26A217D30067D5AC /* BitStreamEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E4D02264DCE4500733445 /* BitStreamEncoder.swift */; };
 		34EB1FAC26A217E30067D5AC /* BitStreamBasicDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0557F2649DCA0009DE5CB /* BitStreamBasicDecoder.swift */; };
 		34EB1FAD26A217E30067D5AC /* BitStreamDecoderV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0557C2649DCA0009DE5CB /* BitStreamDecoderV1.swift */; };
-		34EB1FAE26A217EC0067D5AC /* Array+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E4D06264DD66800733445 /* Array+BitStreamEncodable.swift */; };
-		34EB1FAF26A21C3B0067D5AC /* Data+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B0557A2649DCA0009DE5CB /* Data+BitStreamDecodable.swift */; };
-		34EB1FB026A21C3F0067D5AC /* Integer+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B055792649DCA0009DE5CB /* Integer+BitStreamDecodable.swift */; };
 		34EB1FB226A2235F0067D5AC /* FixedWidthInteger+ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB1FB126A2235F0067D5AC /* FixedWidthInteger+ZigZag.swift */; };
-		34EB1FB426A227620067D5AC /* Int8+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB1FB326A227620067D5AC /* Int8+BitStreamEncodable.swift */; };
 		34EB1FB626A227900067D5AC /* FixedWidthInteger+Octets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB1FB526A227900067D5AC /* FixedWidthInteger+Octets.swift */; };
-		34EB1FBA26A22E4C0067D5AC /* Int8+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB1FB926A22E4C0067D5AC /* Int8+BitStreamDecodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,36 +63,38 @@
 		1CC09738B5D2317F00EE0C32 /* libPods-BitStreamCodableDevFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitStreamCodableDevFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3400B04B26A35BC90052339C /* protocol.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = protocol.md; path = ../../protocol.md; sourceTree = "<group>"; };
 		3400B04C26A35D840052339C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
-		346E4CF7264C73CF00733445 /* Array+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		346E4CFC264DCBBC00733445 /* Integer+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B07926A35DF90052339C /* Optional+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B07A26A35DF90052339C /* FloatingPoint+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B07B26A35DF90052339C /* Integer+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B07C26A35DF90052339C /* Dictionary+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B07D26A35DF90052339C /* Data+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B07E26A35DF90052339C /* Date+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B07F26A35DF90052339C /* Array+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B08026A35DF90052339C /* String+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B08126A35DF90052339C /* Int8+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int8+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B08226A35DF90052339C /* Bool+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		3400B08426A35DF90052339C /* String+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08526A35DF90052339C /* Date+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08626A35DF90052339C /* Array+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08726A35DF90052339C /* Data+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08826A35DF90052339C /* Bool+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08926A35DF90052339C /* Int8+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int8+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08A26A35DF90052339C /* FloatingPoint+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08B26A35DF90052339C /* Optional+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08C26A35DF90052339C /* Dictionary+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B08D26A35DF90052339C /* Integer+BitStreamEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+BitStreamEncodable.swift"; sourceTree = "<group>"; };
+		3400B0A626A35E580052339C /* TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
+		3400B0A726A35E580052339C /* OptionalEncodingDecodingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalEncodingDecodingTests.swift; sourceTree = "<group>"; };
+		3400B0AA26A35E630052339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = BitStreamCodableDevFrameworkTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		346E4D00264DCE3400733445 /* BitStreamDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitStreamDecoder.swift; sourceTree = "<group>"; };
 		346E4D02264DCE4500733445 /* BitStreamEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitStreamEncoder.swift; sourceTree = "<group>"; };
-		346E4D04264DD52000733445 /* Data+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+BitStreamEncodable.swift"; sourceTree = "<group>"; };
-		346E4D06264DD66800733445 /* Array+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+BitStreamEncodable.swift"; sourceTree = "<group>"; };
-		349EC6A826A2C9F7003B6588 /* Dictionary+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+BitStreamEncodable.swift"; sourceTree = "<group>"; };
-		349EC6AA26A2CA6A003B6588 /* Dictionary+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		349EC6AC26A2CCEF003B6588 /* Optional+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+BitStreamEncodable.swift"; sourceTree = "<group>"; };
-		349EC6AE26A2CDA4003B6588 /* Optional+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		349EC6B026A2CE71003B6588 /* String+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BitStreamEncodable.swift"; sourceTree = "<group>"; };
-		349EC6B226A2CF53003B6588 /* String+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		349EC6B726A2E6C2003B6588 /* FloatingPoint+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+BitStreamEncodable.swift"; sourceTree = "<group>"; };
 		349EC6B926A2E7E0003B6588 /* FloatPoint+Octets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatPoint+Octets.swift"; sourceTree = "<group>"; };
-		349EC6BB26A2ED86003B6588 /* FloatingPoint+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		349EC6BD26A2F0F3003B6588 /* Bool+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		349EC6BF26A2F0FD003B6588 /* Bool+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+BitStreamEncodable.swift"; sourceTree = "<group>"; };
-		349EC6C126A2F196003B6588 /* Date+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+BitStreamEncodable.swift"; sourceTree = "<group>"; };
-		349EC6C326A2F241003B6588 /* Date+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		349EC6C526A2F390003B6588 /* OptionalEncodingDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalEncodingDecodingTests.swift; sourceTree = "<group>"; };
-		349EC6C726A2F473003B6588 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
 		34B055322649DA86009DE5CB /* BitStreamCodableDevFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitStreamCodableDevFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B055352649DA86009DE5CB /* BitStreamCodableDevFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitStreamCodableDevFramework.h; sourceTree = "<group>"; };
 		34B055362649DA86009DE5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B0553B2649DA86009DE5CB /* BitStreamCodableDevFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitStreamCodableDevFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		34B055422649DA86009DE5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B055742649DCA0009DE5CB /* Data+Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Decode.swift"; sourceTree = "<group>"; };
 		34B055762649DCA0009DE5CB /* BitStreamData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamData.swift; sourceTree = "<group>"; };
-		34B055792649DCA0009DE5CB /* Integer+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+BitStreamDecodable.swift"; sourceTree = "<group>"; };
-		34B0557A2649DCA0009DE5CB /* Data+BitStreamDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+BitStreamDecodable.swift"; sourceTree = "<group>"; };
 		34B0557B2649DCA0009DE5CB /* BitStreamCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamCodable.swift; sourceTree = "<group>"; };
 		34B0557C2649DCA0009DE5CB /* BitStreamDecoderV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamDecoderV1.swift; sourceTree = "<group>"; };
 		34B0557D2649DCA0009DE5CB /* BitStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStream.swift; sourceTree = "<group>"; };
@@ -100,9 +102,7 @@
 		34B05592264B2515009DE5CB /* BinaryInteger+binaryDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BinaryInteger+binaryDescription.swift"; sourceTree = "<group>"; };
 		34B05594264B2CA9009DE5CB /* BytesArray+decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BytesArray+decode.swift"; sourceTree = "<group>"; };
 		34EB1FB126A2235F0067D5AC /* FixedWidthInteger+ZigZag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FixedWidthInteger+ZigZag.swift"; sourceTree = "<group>"; };
-		34EB1FB326A227620067D5AC /* Int8+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int8+BitStreamEncodable.swift"; sourceTree = "<group>"; };
 		34EB1FB526A227900067D5AC /* FixedWidthInteger+Octets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FixedWidthInteger+Octets.swift"; sourceTree = "<group>"; };
-		34EB1FB926A22E4C0067D5AC /* Int8+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int8+BitStreamDecodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,56 +125,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		346E4CFA264DCB8E00733445 /* decoder */ = {
+		3400B07826A35DF90052339C /* Decodable */ = {
+			isa = PBXGroup;
+			children = (
+				3400B07F26A35DF90052339C /* Array+BitStreamDecodable.swift */,
+				3400B08226A35DF90052339C /* Bool+BitStreamDecodable.swift */,
+				3400B07D26A35DF90052339C /* Data+BitStreamDecodable.swift */,
+				3400B07E26A35DF90052339C /* Date+BitStreamDecodable.swift */,
+				3400B07C26A35DF90052339C /* Dictionary+BitStreamDecodable.swift */,
+				3400B07A26A35DF90052339C /* FloatingPoint+BitStreamDecodable.swift */,
+				3400B08126A35DF90052339C /* Int8+BitStreamDecodable.swift */,
+				3400B07B26A35DF90052339C /* Integer+BitStreamDecodable.swift */,
+				3400B07926A35DF90052339C /* Optional+BitStreamDecodable.swift */,
+				3400B08026A35DF90052339C /* String+BitStreamDecodable.swift */,
+			);
+			path = Decodable;
+			sourceTree = "<group>";
+		};
+		3400B08326A35DF90052339C /* Encodable */ = {
+			isa = PBXGroup;
+			children = (
+				3400B08626A35DF90052339C /* Array+BitStreamEncodable.swift */,
+				3400B08826A35DF90052339C /* Bool+BitStreamEncodable.swift */,
+				3400B08726A35DF90052339C /* Data+BitStreamEncodable.swift */,
+				3400B08526A35DF90052339C /* Date+BitStreamEncodable.swift */,
+				3400B08C26A35DF90052339C /* Dictionary+BitStreamEncodable.swift */,
+				3400B08A26A35DF90052339C /* FloatingPoint+BitStreamEncodable.swift */,
+				3400B08926A35DF90052339C /* Int8+BitStreamEncodable.swift */,
+				3400B08D26A35DF90052339C /* Integer+BitStreamEncodable.swift */,
+				3400B08B26A35DF90052339C /* Optional+BitStreamEncodable.swift */,
+				3400B08426A35DF90052339C /* String+BitStreamEncodable.swift */,
+			);
+			path = Encodable;
+			sourceTree = "<group>";
+		};
+		346E4CFA264DCB8E00733445 /* Decoder */ = {
 			isa = PBXGroup;
 			children = (
 				34B0557F2649DCA0009DE5CB /* BitStreamBasicDecoder.swift */,
 				34B0557C2649DCA0009DE5CB /* BitStreamDecoderV1.swift */,
 			);
-			path = decoder;
+			path = Decoder;
 			sourceTree = "<group>";
 		};
-		349EC6B426A2CF57003B6588 /* types */ = {
+		349EC6B426A2CF57003B6588 /* Types */ = {
 			isa = PBXGroup;
 			children = (
-				349EC6B526A2CF5C003B6588 /* decodable */,
-				349EC6B626A2CF60003B6588 /* encodable */,
+				3400B07826A35DF90052339C /* Decodable */,
+				3400B08326A35DF90052339C /* Encodable */,
 			);
-			path = types;
-			sourceTree = "<group>";
-		};
-		349EC6B526A2CF5C003B6588 /* decodable */ = {
-			isa = PBXGroup;
-			children = (
-				346E4CF7264C73CF00733445 /* Array+BitStreamDecodable.swift */,
-				349EC6BD26A2F0F3003B6588 /* Bool+BitStreamDecodable.swift */,
-				34B0557A2649DCA0009DE5CB /* Data+BitStreamDecodable.swift */,
-				349EC6C326A2F241003B6588 /* Date+BitStreamDecodable.swift */,
-				349EC6AA26A2CA6A003B6588 /* Dictionary+BitStreamDecodable.swift */,
-				349EC6BB26A2ED86003B6588 /* FloatingPoint+BitStreamDecodable.swift */,
-				34EB1FB926A22E4C0067D5AC /* Int8+BitStreamDecodable.swift */,
-				34B055792649DCA0009DE5CB /* Integer+BitStreamDecodable.swift */,
-				349EC6AE26A2CDA4003B6588 /* Optional+BitStreamDecodable.swift */,
-				349EC6B226A2CF53003B6588 /* String+BitStreamDecodable.swift */,
-			);
-			path = decodable;
-			sourceTree = "<group>";
-		};
-		349EC6B626A2CF60003B6588 /* encodable */ = {
-			isa = PBXGroup;
-			children = (
-				346E4D06264DD66800733445 /* Array+BitStreamEncodable.swift */,
-				349EC6BF26A2F0FD003B6588 /* Bool+BitStreamEncodable.swift */,
-				346E4D04264DD52000733445 /* Data+BitStreamEncodable.swift */,
-				349EC6C126A2F196003B6588 /* Date+BitStreamEncodable.swift */,
-				349EC6A826A2C9F7003B6588 /* Dictionary+BitStreamEncodable.swift */,
-				349EC6B726A2E6C2003B6588 /* FloatingPoint+BitStreamEncodable.swift */,
-				34EB1FB326A227620067D5AC /* Int8+BitStreamEncodable.swift */,
-				346E4CFC264DCBBC00733445 /* Integer+BitStreamEncodable.swift */,
-				349EC6AC26A2CCEF003B6588 /* Optional+BitStreamEncodable.swift */,
-				349EC6B026A2CE71003B6588 /* String+BitStreamEncodable.swift */,
-			);
-			path = encodable;
+			path = Types;
 			sourceTree = "<group>";
 		};
 		34B055282649DA86009DE5CB = {
@@ -212,11 +212,12 @@
 		34B0553F2649DA86009DE5CB /* BitStreamCodableDevFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				34B055422649DA86009DE5CB /* Info.plist */,
-				349EC6C526A2F390003B6588 /* OptionalEncodingDecodingTests.swift */,
-				349EC6C726A2F473003B6588 /* TestCase.swift */,
+				3400B0AA26A35E630052339C /* Info.plist */,
+				3400B0A726A35E580052339C /* OptionalEncodingDecodingTests.swift */,
+				3400B0A626A35E580052339C /* TestCase.swift */,
 			);
-			path = BitStreamCodableDevFrameworkTests;
+			name = BitStreamCodableDevFrameworkTests;
+			path = ../../Source/Tests;
 			sourceTree = "<group>";
 		};
 		34B055722649DCA0009DE5CB /* Source */ = {
@@ -226,9 +227,9 @@
 				34B0557B2649DCA0009DE5CB /* BitStreamCodable.swift */,
 				346E4D00264DCE3400733445 /* BitStreamDecoder.swift */,
 				346E4D02264DCE4500733445 /* BitStreamEncoder.swift */,
-				346E4CFA264DCB8E00733445 /* decoder */,
+				346E4CFA264DCB8E00733445 /* Decoder */,
 				34B055732649DCA0009DE5CB /* Misc */,
-				349EC6B426A2CF57003B6588 /* types */,
+				349EC6B426A2CF57003B6588 /* Types */,
 			);
 			name = Source;
 			path = ../../../Source;
@@ -332,6 +333,7 @@
 					};
 					34B0553A2649DA86009DE5CB = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -401,39 +403,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3400B09D26A35DF90052339C /* Int8+BitStreamEncodable.swift in Sources */,
+				3400B09526A35DF90052339C /* String+BitStreamDecodable.swift in Sources */,
+				3400B09726A35DF90052339C /* Bool+BitStreamDecodable.swift in Sources */,
 				34EB1FA926A217D30067D5AC /* BitStream.swift in Sources */,
-				34EB1F9A26A212F00067D5AC /* Data+BitStreamEncodable.swift in Sources */,
-				349EC6B326A2CF53003B6588 /* String+BitStreamDecodable.swift in Sources */,
-				349EC6BE26A2F0F3003B6588 /* Bool+BitStreamDecodable.swift in Sources */,
-				349EC6C026A2F0FD003B6588 /* Bool+BitStreamEncodable.swift in Sources */,
 				34EB1FA126A215FA0067D5AC /* BitStreamData.swift in Sources */,
+				3400B09826A35DF90052339C /* String+BitStreamEncodable.swift in Sources */,
+				3400B09126A35DF90052339C /* Dictionary+BitStreamDecodable.swift in Sources */,
+				3400B09326A35DF90052339C /* Date+BitStreamDecodable.swift in Sources */,
+				3400B09E26A35DF90052339C /* FloatingPoint+BitStreamEncodable.swift in Sources */,
 				34EB1F9F26A215FA0067D5AC /* BytesArray+decode.swift in Sources */,
-				34EB1FB426A227620067D5AC /* Int8+BitStreamEncodable.swift in Sources */,
+				3400B09B26A35DF90052339C /* Data+BitStreamEncodable.swift in Sources */,
 				34EB1F9E26A215FA0067D5AC /* Data+Decode.swift in Sources */,
-				349EC6C226A2F196003B6588 /* Date+BitStreamEncodable.swift in Sources */,
+				3400B09026A35DF90052339C /* Integer+BitStreamDecodable.swift in Sources */,
+				3400B09C26A35DF90052339C /* Bool+BitStreamEncodable.swift in Sources */,
+				3400B09626A35DF90052339C /* Int8+BitStreamDecodable.swift in Sources */,
+				3400B09A26A35DF90052339C /* Array+BitStreamEncodable.swift in Sources */,
 				349EC6BA26A2E7E0003B6588 /* FloatPoint+Octets.swift in Sources */,
-				349EC6AD26A2CCEF003B6588 /* Optional+BitStreamEncodable.swift in Sources */,
-				34EB1FB026A21C3F0067D5AC /* Integer+BitStreamDecodable.swift in Sources */,
 				34EB1FB626A227900067D5AC /* FixedWidthInteger+Octets.swift in Sources */,
-				349EC6AF26A2CDA4003B6588 /* Optional+BitStreamDecodable.swift in Sources */,
+				3400B09426A35DF90052339C /* Array+BitStreamDecodable.swift in Sources */,
 				34EB1FAB26A217D30067D5AC /* BitStreamEncoder.swift in Sources */,
-				349EC6B826A2E6C2003B6588 /* FloatingPoint+BitStreamEncodable.swift in Sources */,
-				349EC6A926A2C9F7003B6588 /* Dictionary+BitStreamEncodable.swift in Sources */,
-				349EC6A726A2BF58003B6588 /* Array+BitStreamDecodable.swift in Sources */,
-				34EB1FBA26A22E4C0067D5AC /* Int8+BitStreamDecodable.swift in Sources */,
-				349EC6C426A2F241003B6588 /* Date+BitStreamDecodable.swift in Sources */,
 				34EB1FA826A217D30067D5AC /* BitStreamDecoder.swift in Sources */,
 				34EB1FAD26A217E30067D5AC /* BitStreamDecoderV1.swift in Sources */,
-				34EB1FA326A217CB0067D5AC /* Integer+BitStreamEncodable.swift in Sources */,
-				34EB1FAE26A217EC0067D5AC /* Array+BitStreamEncodable.swift in Sources */,
-				349EC6B126A2CE71003B6588 /* String+BitStreamEncodable.swift in Sources */,
-				34EB1FAF26A21C3B0067D5AC /* Data+BitStreamDecodable.swift in Sources */,
+				3400B09226A35DF90052339C /* Data+BitStreamDecodable.swift in Sources */,
 				34EB1FB226A2235F0067D5AC /* FixedWidthInteger+ZigZag.swift in Sources */,
 				34EB1FAA26A217D30067D5AC /* BitStreamCodable.swift in Sources */,
-				349EC6BC26A2ED86003B6588 /* FloatingPoint+BitStreamDecodable.swift in Sources */,
-				349EC6AB26A2CA6A003B6588 /* Dictionary+BitStreamDecodable.swift in Sources */,
+				3400B09926A35DF90052339C /* Date+BitStreamEncodable.swift in Sources */,
+				3400B08E26A35DF90052339C /* Optional+BitStreamDecodable.swift in Sources */,
+				3400B09F26A35DF90052339C /* Optional+BitStreamEncodable.swift in Sources */,
 				34EB1FA026A215FA0067D5AC /* BinaryInteger+binaryDescription.swift in Sources */,
+				3400B08F26A35DF90052339C /* FloatingPoint+BitStreamDecodable.swift in Sources */,
 				34EB1FAC26A217E30067D5AC /* BitStreamBasicDecoder.swift in Sources */,
+				3400B0A026A35DF90052339C /* Dictionary+BitStreamEncodable.swift in Sources */,
+				3400B0A126A35DF90052339C /* Integer+BitStreamEncodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,8 +443,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349EC6C626A2F390003B6588 /* OptionalEncodingDecodingTests.swift in Sources */,
-				349EC6C826A2F473003B6588 /* TestCase.swift in Sources */,
+				3400B0A826A35E580052339C /* TestCase.swift in Sources */,
+				3400B0A926A35E580052339C /* OptionalEncodingDecodingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +635,7 @@
 			baseConfigurationReference = 00ABB2999E6AC97B282198CC /* Pods-BitStreamCodableDevFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BitStreamCodableDevFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -642,6 +645,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chlup.BitStreamCodableDevFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -652,6 +656,7 @@
 			baseConfigurationReference = 0EA1D90802919D6C66BC4811 /* Pods-BitStreamCodableDevFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BitStreamCodableDevFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
