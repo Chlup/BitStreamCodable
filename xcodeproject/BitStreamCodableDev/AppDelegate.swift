@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let sourceData: Array<Int?> = [21, 22, 23, nil, 15]
 //        let sourceData: [String: Int] = ["hello": 5, "world": 5, "whatever": 8]
 //        let sourceData = "H".data(using: .utf8)!
-//        let sourceData = MyData(value: 221, asset: Asset(assetID: 999))
+        let sourceData = MyData(value: 221, asset: Asset(assetID: 999))
 //        let sourceData = 200
 //        let sourceData: Int8 = -10
 //        let sourceData: Int? = nil
@@ -47,7 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let sourceData: Float80 = 3.14159
 //        let sourceData: Double = 3.14159
 //        let sourceData: Bool = false
-        let sourceData: Date = Date()
+//        let sourceData: Date = Date()
 
         print("Source")
         dump(sourceData)
@@ -61,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let decodedRaw = try! bitStream.decode(Dictionary<String, Int>.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Data.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(UInt16.self, from: encoded)
-//        let decodedRaw = try! bitStream.decode(MyData.self, from: encoded)
+        let decodedRaw = try! bitStream.decode(MyData.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Int8.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Int?.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Array<Int?>.self, from: encoded)
@@ -69,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let decodedRaw = try! bitStream.decode(Float.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Double.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Float80.self, from: encoded)
-        let decodedRaw = try! bitStream.decode(Date.self, from: encoded)
+//        let decodedRaw = try! bitStream.decode(Date.self, from: encoded)
 
         dump(decodedRaw)
 

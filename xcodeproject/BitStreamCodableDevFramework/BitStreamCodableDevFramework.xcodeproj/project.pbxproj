@@ -22,8 +22,9 @@
 		349EC6C026A2F0FD003B6588 /* Bool+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6BF26A2F0FD003B6588 /* Bool+BitStreamEncodable.swift */; };
 		349EC6C226A2F196003B6588 /* Date+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C126A2F196003B6588 /* Date+BitStreamEncodable.swift */; };
 		349EC6C426A2F241003B6588 /* Date+BitStreamDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C326A2F241003B6588 /* Date+BitStreamDecodable.swift */; };
+		349EC6C626A2F390003B6588 /* OptionalEncodingDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C526A2F390003B6588 /* OptionalEncodingDecodingTests.swift */; };
+		349EC6C826A2F473003B6588 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EC6C726A2F473003B6588 /* TestCase.swift */; };
 		34B0553C2649DA86009DE5CB /* BitStreamCodableDevFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B055322649DA86009DE5CB /* BitStreamCodableDevFramework.framework */; };
-		34B055412649DA86009DE5CB /* BitStreamCodableDevFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B055402649DA86009DE5CB /* BitStreamCodableDevFrameworkTests.swift */; };
 		34B055432649DA86009DE5CB /* BitStreamCodableDevFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B055352649DA86009DE5CB /* BitStreamCodableDevFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34EB1F9A26A212F00067D5AC /* Data+BitStreamEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E4D04264DD52000733445 /* Data+BitStreamEncodable.swift */; };
 		34EB1F9E26A215FA0067D5AC /* Data+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B055742649DCA0009DE5CB /* Data+Decode.swift */; };
@@ -79,11 +80,12 @@
 		349EC6BF26A2F0FD003B6588 /* Bool+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+BitStreamEncodable.swift"; sourceTree = "<group>"; };
 		349EC6C126A2F196003B6588 /* Date+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+BitStreamEncodable.swift"; sourceTree = "<group>"; };
 		349EC6C326A2F241003B6588 /* Date+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+BitStreamDecodable.swift"; sourceTree = "<group>"; };
+		349EC6C526A2F390003B6588 /* OptionalEncodingDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalEncodingDecodingTests.swift; sourceTree = "<group>"; };
+		349EC6C726A2F473003B6588 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
 		34B055322649DA86009DE5CB /* BitStreamCodableDevFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitStreamCodableDevFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B055352649DA86009DE5CB /* BitStreamCodableDevFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitStreamCodableDevFramework.h; sourceTree = "<group>"; };
 		34B055362649DA86009DE5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B0553B2649DA86009DE5CB /* BitStreamCodableDevFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitStreamCodableDevFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		34B055402649DA86009DE5CB /* BitStreamCodableDevFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitStreamCodableDevFrameworkTests.swift; sourceTree = "<group>"; };
 		34B055422649DA86009DE5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B055742649DCA0009DE5CB /* Data+Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Decode.swift"; sourceTree = "<group>"; };
 		34B055762649DCA0009DE5CB /* BitStreamData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamData.swift; sourceTree = "<group>"; };
@@ -207,8 +209,9 @@
 		34B0553F2649DA86009DE5CB /* BitStreamCodableDevFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				34B055402649DA86009DE5CB /* BitStreamCodableDevFrameworkTests.swift */,
 				34B055422649DA86009DE5CB /* Info.plist */,
+				349EC6C526A2F390003B6588 /* OptionalEncodingDecodingTests.swift */,
+				349EC6C726A2F473003B6588 /* TestCase.swift */,
 			);
 			path = BitStreamCodableDevFrameworkTests;
 			sourceTree = "<group>";
@@ -436,7 +439,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34B055412649DA86009DE5CB /* BitStreamCodableDevFrameworkTests.swift in Sources */,
+				349EC6C626A2F390003B6588 /* OptionalEncodingDecodingTests.swift in Sources */,
+				349EC6C826A2F473003B6588 /* TestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
