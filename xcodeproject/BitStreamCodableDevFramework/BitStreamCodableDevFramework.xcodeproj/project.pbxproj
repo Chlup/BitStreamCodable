@@ -80,7 +80,6 @@
 		34B0557D2649DCA0009DE5CB /* BitStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStream.swift; sourceTree = "<group>"; };
 		34B0557E2649DCA0009DE5CB /* protocol.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = protocol.md; sourceTree = "<group>"; };
 		34B0557F2649DCA0009DE5CB /* BitStreamBasicDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamBasicDecoder.swift; sourceTree = "<group>"; };
-		34B055802649DCA0009DE5CB /* Prototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		34B05592264B2515009DE5CB /* BinaryInteger+binaryDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BinaryInteger+binaryDescription.swift"; sourceTree = "<group>"; };
 		34B05594264B2CA9009DE5CB /* BytesArray+decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BytesArray+decode.swift"; sourceTree = "<group>"; };
 		34EB1FB126A2235F0067D5AC /* FixedWidthInteger+ZigZag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FixedWidthInteger+ZigZag.swift"; sourceTree = "<group>"; };
@@ -204,7 +203,6 @@
 				346E4CFA264DCB8E00733445 /* decoder */,
 				34B055732649DCA0009DE5CB /* Misc */,
 				34B0557E2649DCA0009DE5CB /* protocol.md */,
-				34B055802649DCA0009DE5CB /* Prototype.swift */,
 				349EC6B426A2CF57003B6588 /* types */,
 			);
 			name = Source;
