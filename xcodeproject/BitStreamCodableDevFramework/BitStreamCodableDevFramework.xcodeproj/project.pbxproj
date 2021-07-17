@@ -62,6 +62,7 @@
 		0EA1D90802919D6C66BC4811 /* Pods-BitStreamCodableDevFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitStreamCodableDevFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-BitStreamCodableDevFrameworkTests/Pods-BitStreamCodableDevFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		1CC09738B5D2317F00EE0C32 /* libPods-BitStreamCodableDevFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitStreamCodableDevFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3400B04B26A35BC90052339C /* protocol.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = protocol.md; path = ../../protocol.md; sourceTree = "<group>"; };
+		3400B04C26A35D840052339C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		346E4CF7264C73CF00733445 /* Array+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+BitStreamDecodable.swift"; sourceTree = "<group>"; };
 		346E4CFC264DCBBC00733445 /* Integer+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+BitStreamEncodable.swift"; sourceTree = "<group>"; };
 		346E4D00264DCE3400733445 /* BitStreamDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitStreamDecoder.swift; sourceTree = "<group>"; };
@@ -179,6 +180,7 @@
 		34B055282649DA86009DE5CB = {
 			isa = PBXGroup;
 			children = (
+				3400B04C26A35D840052339C /* README.md */,
 				3400B04B26A35BC90052339C /* protocol.md */,
 				34B055342649DA86009DE5CB /* BitStreamCodableDevFramework */,
 				34B0553F2649DA86009DE5CB /* BitStreamCodableDevFrameworkTests */,
