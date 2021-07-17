@@ -17,10 +17,6 @@ struct Asset {
     let assetID: Int
 }
 
-extension Asset: BitStreamIdentifiable {
-    static var bitStreamIdentifier: Int { MyTypes.Asset.rawValue }
-}
-
 extension Asset: BitStreamCodable {
     func encode(with encoder: BitStreamEncoder) {
         encoder.encode(assetID)
@@ -36,11 +32,6 @@ struct MyData {
     //    var data: [String: Any]
     let asset: Asset
 }
-
-extension MyData: BitStreamIdentifiable {
-    static var bitStreamIdentifier: Int { MyTypes.MyData.rawValue }
-}
-
 
 extension MyData: BitStreamCodable {
 

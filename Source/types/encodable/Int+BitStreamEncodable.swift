@@ -7,16 +7,9 @@
 
 import Foundation
 
-extension Int: BitStreamIdentifiable {
-    public static var bitStreamIdentifier: Int { Int(BitStreamDefaultType.Int.rawValue) }
-}
-
 extension Int: BitStreamEncodable {
     public func encode(with encoder: BitStreamEncoder) {
-        if encoder.writeType {
-            encoder.write(byte: BitStreamDefaultType.Int.rawValue, useBitsCount: Constants.typeBitsCount)
-        }
-
+        print("Encoding int \(self)")
         let octets = self.zigZagEncode().octets()
         if let octetsFromIndex = octets.firstIndex(where: { $0 > 0 }) {
 

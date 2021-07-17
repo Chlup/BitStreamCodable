@@ -7,18 +7,10 @@
 
 import Foundation
 
-extension Int8: BitStreamIdentifiable {
-    public static var bitStreamIdentifier: Int { Int(BitStreamDefaultType.Int8.rawValue) }
-}
-
 extension Int8: BitStreamEncodable {
 
     public func encode(with encoder: BitStreamEncoder) {
-
-        if encoder.writeType {
-            encoder.write(byte: BitStreamDefaultType.Int8.rawValue, useBitsCount: Constants.typeBitsCount)
-        }
-
+        print("Encoding UInt8")
         var octet: UInt8 = 0
 
         let pointer: UnsafeMutablePointer<Int8> = UnsafeMutablePointer.allocate(capacity: 1)

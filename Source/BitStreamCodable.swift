@@ -9,21 +9,11 @@ import Foundation
 
 public typealias BitStreamCodable = BitStreamEncodable & BitStreamDecodable
 
-public protocol BitStreamIdentifiable {
-    static var bitStreamIdentifier: Int { get }
-}
-
-private let _allInternalTypes: Set<Int> = Set(BitStreamDefaultType.allCases.map { Int($0.rawValue) })
-
-extension BitStreamIdentifiable {
-    static var isInternalType: Bool { _allInternalTypes.contains(Self.bitStreamIdentifier) }
-}
-
-public protocol BitStreamEncodable: BitStreamIdentifiable {
+public protocol BitStreamEncodable {
     func encode(with encoder: BitStreamEncoder)
 }
 
-public protocol BitStreamDecodable: BitStreamIdentifiable {
+public protocol BitStreamDecodable {
     init(with decoder: BitStreamDecoder) throws
 }
 

@@ -10,12 +10,8 @@ import Foundation
 extension Data: BitStreamDecodable {
     public init(with decoder: BitStreamDecoder) throws {
         print("Decoding data")
-        if decoder.readType {
-            let type = try decoder.read(bitsCount: Constants.typeBitsCount)
-            print("type \(type)")
-        }
 
-        let dataLength = try decoder.decode(Int.self, readType: false)
+        let dataLength = try decoder.decode(Int.self)
 
 //        let dataLength = try decodeInt(readType: false)
         print("Data length: \(dataLength)")

@@ -15,29 +15,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        let decoder = try! JSONDecoder().decode(Array<Int>.self, from: Data())
 
-        let sourceData = "Hello world".data(using: .utf8)!
-//        let sourceData: Array<Int> = [1, 2, 3]
+//        let sourceData = "Loren ipsum".data(using: .utf8)!
+//        let sourceData: Array<Int> = [21, 22, 23]
+//        let sourceData: Array<Int?> = [21, 22, 23, nil, 15]
+        let sourceData: [String: Int] = ["hello": 5, "world": 5, "whatever": 8]
 //        let sourceData = "H".data(using: .utf8)!
 //        let sourceData = MyData(value: 221, asset: Asset(assetID: 999))
 //        let sourceData = -10
 //        let sourceData: Int8 = -10
+//        let sourceData: Int? = nil
+//        let sourceData = "Hello world"
 //
         let bitStream = BitStream()
 
         let encoded = bitStream.encode(sourceData)
         dump(encoded)
 //        let decodedRaw = try! bitStream.decode(Array<Int>.self, from: encoded)
-        let decodedRaw = try! bitStream.decode(Data.self, from: encoded)
+        let decodedRaw = try! bitStream.decode(Dictionary<String, Int>.self, from: encoded)
+//        let decodedRaw = try! bitStream.decode(Data.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Int.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(MyData.self, from: encoded)
 //        let decodedRaw = try! bitStream.decode(Int8.self, from: encoded)
+//        let decodedRaw = try! bitStream.decode(Int?.self, from: encoded)
+//        let decodedRaw = try! bitStream.decode(Array<Int?>.self, from: encoded)
+//        let decodedRaw = try! bitStream.decode(String.self, from: encoded)
 
         dump(decodedRaw)
 
-        if let srcData = sourceData as? Data {
-            let str = String(data: decodedRaw, encoding: .utf8)
-            print(str)
-        }
+//        let str = String(data: decodedRaw, encoding: .utf8)
+//        print(str)
 
         return true
     }

@@ -7,16 +7,10 @@
 
 import Foundation
 
-extension Data: BitStreamIdentifiable {
-    public static var bitStreamIdentifier: Int { Int(BitStreamDefaultType.Data.rawValue) }
-}
-
 extension Data: BitStreamEncodable {
     public func encode(with encoder: BitStreamEncoder) {
-        if encoder.writeType {
-            encoder.write(byte: BitStreamDefaultType.Data.rawValue, useBitsCount: Constants.typeBitsCount)
-        }
-        encoder.encode(count, writeType: false)
+        print("Encoding Data")
+        encoder.encode(count)
         encoder.write(bytes: Array(self))
     }
 }

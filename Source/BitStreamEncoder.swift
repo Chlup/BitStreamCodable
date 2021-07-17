@@ -23,16 +23,6 @@ public class BitStreamEncoder {
     }
 
     public func encode<T: BitStreamEncodable>(_ value: T) {
-        encode(value, writeType: true)
-    }
-
-    func encode<T: BitStreamEncodable>(_ value: T, writeType: Bool) {
-        if type(of: value).isInternalType {
-            self.writeType = writeType
-        } else {
-            self.writeType = true
-        }
-
         value.encode(with: self)
     }
 }

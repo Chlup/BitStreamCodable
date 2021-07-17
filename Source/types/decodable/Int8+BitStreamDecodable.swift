@@ -10,12 +10,6 @@ import Foundation
 extension Int8: BitStreamDecodable {
     public init(with decoder: BitStreamDecoder) throws {
         print("Decoding int8")
-
-        if decoder.readType {
-            let type = try decoder.read(bitsCount: Constants.typeBitsCount)
-            print("type \(type)")
-        }
-
         let octets = try decoder.read(bytesCount: 1)
         print("bytes \(octets)")
 

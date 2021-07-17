@@ -11,10 +11,6 @@ import Foundation
 class BitStreamDecoderV1: BitStreamDecoder {
     let data: Data
 
-    struct Constants {
-        static let typeBitsCount: BitStreamTypeLength = 4
-    }
-
     private var buffer: UInt8 = 0
     private var notReadBitsInBuffer: UInt8 = 8
     private var dataPointer: Int = 0
@@ -26,20 +22,10 @@ class BitStreamDecoderV1: BitStreamDecoder {
             print("Byte \(byte.binaryDescription)")
         }
 
-        super.init(protocolVersion: protocolVersion)
+        super.init()
     }
 
     override func decode<T: BitStreamDecodable>(_ valueType: T.Type) throws -> T {
-        return try decode(valueType, readType: true)
-    }
-
-    override func decode<T: BitStreamDecodable>(_ valueType: T.Type, readType: Bool) throws -> T {
-        if valueType.isInternalType {
-            self.readType = readType
-        } else {
-            self.readType = true
-        }
-
         return try valueType.init(with: self)
     }
 
@@ -78,14 +64,15 @@ class BitStreamDecoderV1: BitStreamDecoder {
         var readBits: UInt8 = 0
         if bitsCount > notReadBitsInBuffer {
             print("bitsCount > notReadBitsInBuffer")
-            let notInterestedBitsCount = bitsCount - notReadBitsInBuffer
+            let notReadBitsOnTheBegining = notReadBitsInBuffer
+            let notInterestedBitsCount = 8 - notReadBitsOnTheBegining // bitsCount - notReadBitsInBuffer
             let maskForFirstBits = UInt8.max >> notInterestedBitsCount
             let bitsFromBuffer = buffer & maskForFirstBits
             try readNextOctetIntoBuffer()
 
 //            print("Read buffer \(buffer.binaryDescription)")
 
-            let maskForRestOfTheBits = UInt8.max << (bitsCount - notInterestedBitsCount)
+            let maskForRestOfTheBits = UInt8.max << (8 - (bitsCount - notReadBitsOnTheBegining)) //(bitsCount - notInterestedBitsCount)
             let restOfBitsFromBuffer = buffer & maskForRestOfTheBits
 
             print("bitsCount > notReadBitsInBuffer")
@@ -95,7 +82,7 @@ class BitStreamDecoderV1: BitStreamDecoder {
 
             print("readBits \(readBits.binaryDescription)")
 
-            notReadBitsInBuffer -= notInterestedBitsCount
+            notReadBitsInBuffer -= (bitsCount - notReadBitsOnTheBegining)
 
             // read 8 bits -> not enough in buffer, read last bit and put it to right 0000 0001
             //                load next octet
