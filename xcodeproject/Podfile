@@ -1,0 +1,6 @@
+workspace 'BitStreamCodableDev.xcworkspace'
+
+target :BitStreamCodableDevFrameworkTests do
+    project 'BitStreamCodableDevFramework/BitStreamCodableDevFramework'
+    pod 'Nimble'
+end
