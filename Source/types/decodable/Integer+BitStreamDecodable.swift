@@ -24,7 +24,7 @@
 
 import Foundation
 
-extension Int: BitStreamDecodable {
+extension FixedWidthInteger where Self: BitStreamDecodable {
     public init(with decoder: BitStreamDecoder) throws {
         print("Decoding int")
 
@@ -36,7 +36,7 @@ extension Int: BitStreamDecodable {
         let octets = try decoder.read(bytesCount: Int(octetsCount + 1))
         print("bytes \(octets)")
 
-        let decodedValue: Int = octets.decodeInteger()
+        let decodedValue: Self = octets.decodeInteger()
 
         if usingZigZag {
             self = decodedValue.zigZagDecode()
@@ -47,3 +47,13 @@ extension Int: BitStreamDecodable {
         print("Decoded \(self)")
     }
 }
+
+extension Int: BitStreamDecodable { }
+extension Int16: BitStreamDecodable { }
+extension Int32: BitStreamDecodable { }
+extension Int64: BitStreamDecodable { }
+extension UInt: BitStreamDecodable { }
+extension UInt8: BitStreamDecodable { }
+extension UInt16: BitStreamDecodable { }
+extension UInt32: BitStreamDecodable { }
+extension UInt64: BitStreamDecodable { }

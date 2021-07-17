@@ -24,11 +24,11 @@
 
 import Foundation
 
-extension Int: BitStreamEncodable {
+extension FixedWidthInteger where Self: BitStreamEncodable {
     public func encode(with encoder: BitStreamEncoder) {
         print("Encoding int \(self)")
 
-        let valueToEncode: Int
+        let valueToEncode: Self
         if self < 0 {
             print("Using zig zag")
             valueToEncode = self.zigZagEncode()
@@ -51,13 +51,19 @@ extension Int: BitStreamEncodable {
             encoder.write(bytes: octetsToEncode)
 
         } else {
-            // This can basically happen when Int is 0. We just store one zero byte.
+            // This can basically happen when this number is 0. We just store one zero byte.
             encoder.write(byte: 0, useBitsCount: 3)
             encoder.write(byte: 0, useBitsCount: 8)
         }
-
-        //        self.data.append(contentsOf: Int.type.bytes())
-        //        self.data.append(contentsOf: value.bytes())
     }
 }
 
+extension Int: BitStreamEncodable { }
+extension Int16: BitStreamEncodable { }
+extension Int32: BitStreamEncodable { }
+extension Int64: BitStreamEncodable { }
+extension UInt: BitStreamEncodable { }
+extension UInt8: BitStreamEncodable { }
+extension UInt16: BitStreamEncodable { }
+extension UInt32: BitStreamEncodable { }
+extension UInt64: BitStreamEncodable { }

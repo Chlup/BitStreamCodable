@@ -23,7 +23,7 @@
  */
 import Foundation
 
-public extension Data {
+extension Data {
 
     func octets() -> [UInt8] {
         return Array(self)
@@ -40,6 +40,9 @@ public extension Data {
             value |= T(octet)
         }
         return value
+    }
 
+    func decodeFloatingPoint<T: FloatingPoint>() throws -> T {
+        return self.withUnsafeBytes { $0.load(as: T.self) }
     }
 }

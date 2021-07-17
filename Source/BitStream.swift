@@ -26,25 +26,6 @@ import Foundation
 
 extension String: Error { }
 
-//    case Int = 0
-//    case Int8 = 1
-//    case Int16 = 2
-//    case Int32 = 3
-//    case Int64 = 4
-//    case UInt8 = 5
-//    case UInt16 = 6
-//    case UInt32 = 7
-//    case UInt64 = 8
-//    case Float = 9
-//    case Double = 10
-//    case Bool = 11
-//    case String = 12
-//    case Date = 13
-//    case Data = 14
-//    case Array = 15
-//    case Dictionary = 16
-//    case Optional = 17
-
 public typealias BitStreamProtocolVersion = UInt16
 
 public struct BitStream {
