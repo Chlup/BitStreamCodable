@@ -61,6 +61,7 @@
 		00ABB2999E6AC97B282198CC /* Pods-BitStreamCodableDevFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitStreamCodableDevFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-BitStreamCodableDevFrameworkTests/Pods-BitStreamCodableDevFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EA1D90802919D6C66BC4811 /* Pods-BitStreamCodableDevFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitStreamCodableDevFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-BitStreamCodableDevFrameworkTests/Pods-BitStreamCodableDevFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		1CC09738B5D2317F00EE0C32 /* libPods-BitStreamCodableDevFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitStreamCodableDevFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3400B04B26A35BC90052339C /* protocol.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = protocol.md; path = ../../protocol.md; sourceTree = "<group>"; };
 		346E4CF7264C73CF00733445 /* Array+BitStreamDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+BitStreamDecodable.swift"; sourceTree = "<group>"; };
 		346E4CFC264DCBBC00733445 /* Integer+BitStreamEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+BitStreamEncodable.swift"; sourceTree = "<group>"; };
 		346E4D00264DCE3400733445 /* BitStreamDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitStreamDecoder.swift; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		34B0557B2649DCA0009DE5CB /* BitStreamCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamCodable.swift; sourceTree = "<group>"; };
 		34B0557C2649DCA0009DE5CB /* BitStreamDecoderV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamDecoderV1.swift; sourceTree = "<group>"; };
 		34B0557D2649DCA0009DE5CB /* BitStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStream.swift; sourceTree = "<group>"; };
-		34B0557E2649DCA0009DE5CB /* protocol.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = protocol.md; sourceTree = "<group>"; };
 		34B0557F2649DCA0009DE5CB /* BitStreamBasicDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitStreamBasicDecoder.swift; sourceTree = "<group>"; };
 		34B05592264B2515009DE5CB /* BinaryInteger+binaryDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BinaryInteger+binaryDescription.swift"; sourceTree = "<group>"; };
 		34B05594264B2CA9009DE5CB /* BytesArray+decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BytesArray+decode.swift"; sourceTree = "<group>"; };
@@ -179,6 +179,7 @@
 		34B055282649DA86009DE5CB = {
 			isa = PBXGroup;
 			children = (
+				3400B04B26A35BC90052339C /* protocol.md */,
 				34B055342649DA86009DE5CB /* BitStreamCodableDevFramework */,
 				34B0553F2649DA86009DE5CB /* BitStreamCodableDevFrameworkTests */,
 				34B055332649DA86009DE5CB /* Products */,
@@ -225,7 +226,6 @@
 				346E4D02264DCE4500733445 /* BitStreamEncoder.swift */,
 				346E4CFA264DCB8E00733445 /* decoder */,
 				34B055732649DCA0009DE5CB /* Misc */,
-				34B0557E2649DCA0009DE5CB /* protocol.md */,
 				349EC6B426A2CF57003B6588 /* types */,
 			);
 			name = Source;
